@@ -53,3 +53,6 @@
 - - if the number is divisible by 3 then instead of the number show 'foo'
 - - if the number is divisible by 5 then instead of the number show 'bar'
 - - if the number is divisible by both 3 and 5 then instead of the number show 'foobar'
+
+- 22-5 Use add and multiplication to calculate wood requirements
+- -
