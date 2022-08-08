@@ -10,3 +10,10 @@
 - - it is only detectable by Array.isArray() method
 - - const friends = [13, 14, 11, 22, 41];
 - - console.log(Array.isArray(friends));
+- - concat - merge two arrays - put two arrays together
+- - const newFriensAge = [12, 13, 12, 14, 15, 16];
+- - const friends1 = [13, 14, 11, 22, 41];
+- - const allFriends = newFriensAge.concat(friends1);
+- - console.log(allFriends);
+- -removing duplicates from array
+- - console.log([...new Set(allFriends)]);
