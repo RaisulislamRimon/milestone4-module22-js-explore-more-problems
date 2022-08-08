@@ -15,7 +15,7 @@
 - - const friends1 = [13, 14, 11, 22, 41];
 - - const allFriends = newFriensAge.concat(friends1);
 - - console.log(allFriends);
-- -removing duplicates from array
+- - removing duplicates from array
 - - console.log([...new Set(allFriends)]);
 
 - 22-2 Get part of an array and insert elements using slice, splice
