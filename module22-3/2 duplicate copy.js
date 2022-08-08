@@ -15,11 +15,14 @@ const names = [
 ];
 
 function removeDuplicate(names) {
+  const uniqueNames = [];
   for (let i = 0; i < names.length; i++) {
     const name = names[i];
     console.log(name);
+    if (uniqueNames.includes(name) === false) {
+      uniqueNames.push(name);
+    }
   }
-  console.log([...new Set(names)]);
+  console.log(uniqueNames);
 }
-
 const uniqueNames = removeDuplicate(names);

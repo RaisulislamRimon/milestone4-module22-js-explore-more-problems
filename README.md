@@ -44,4 +44,6 @@
 ![image](https://user-images.githubusercontent.com/51745662/183361379-47d3d644-9f20-4227-8cc1-c74585ce4f57.png)
 
 - 22-3 Remove duplicate items from an array
-- -
+- - let chars = ['A', 'B', 'A', 'C', 'B'];
+- - let uniqueChars = [...new Set(chars)];
+- - console.log(uniqueChars);
