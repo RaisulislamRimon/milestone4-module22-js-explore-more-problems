@@ -3,3 +3,6 @@ const friends = [
 ];
 const partial = friends.slice(0, 3);
 console.log(partial);
+
+const partial2 = friends.slice(3, 6);
+console.log(partial2);
