@@ -55,4 +55,5 @@
 - - if the number is divisible by both 3 and 5 then instead of the number show 'foobar'
 
 - 22-5 Use add and multiplication to calculate wood requirements
+- 22-6 Find the cheapest phone from an array of phone objects
 - -
