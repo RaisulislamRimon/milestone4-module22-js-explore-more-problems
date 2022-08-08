@@ -21,7 +21,7 @@
 - 22-2 Get part of an array and insert elements using slice, splice
 
 - - slice
-![image](https://user-images.githubusercontent.com/51745662/183359200-cd68dbb3-aabe-4dab-ab28-80010502f099.png)
+    ![image](https://user-images.githubusercontent.com/51745662/183359200-cd68dbb3-aabe-4dab-ab28-80010502f099.png)
 
 - -                   |         |
 - -                   |         |
@@ -38,4 +38,4 @@
 - - const partial2 = friends.slice(3, 6);
 - - console.log(partial2); // [ 4, 5, 6 ]
 
-
+- - splice
