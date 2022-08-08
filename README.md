@@ -47,3 +47,9 @@
 - - let chars = ['A', 'B', 'A', 'C', 'B'];
 - - let uniqueChars = [...new Set(chars)];
 - - console.log(uniqueChars);
+
+- 22-4 Write foo, bar, foobar if divisible by 3 or 5 or both
+- - show output from 1-50
+- - if the number is divisible by 3 then instead of the number show 'foo'
+- - if the number is divisible by 5 then instead of the number show 'bar'
+- - if the number is divisible by both 3 and 5 then instead of the number show 'foobar'
