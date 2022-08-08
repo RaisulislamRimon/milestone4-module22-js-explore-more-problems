@@ -15,14 +15,16 @@ const names = [
 ];
 
 function removeDuplicate(names) {
-  const uniqueNames = [];
+  const unique = [];
   for (let i = 0; i < names.length; i++) {
     const name = names[i];
     console.log(name);
-    if (!uniqueNames.includes(name)) {
-      uniqueNames.push(name);
+    if (!unique.includes(name)) {
+      unique.push(name);
     }
   }
-  console.log(uniqueNames);
+  // console.log(uniqueNames);
+  return unique;
 }
 const uniqueNames = removeDuplicate(names);
+console.log(uniqueNames);
